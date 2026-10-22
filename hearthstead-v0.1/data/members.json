@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "kevyn-bell",
+    "name": "Kevyn Bell",
+    "title": "Software developer · IT problem-solver · community builder",
+    "shortTitle": "Software & practical technology",
+    "status": "Founding workshop",
+    "category": [
+      "software",
+      "planning"
+    ],
+    "location": "Pacific Northwest",
+    "number": "001",
+    "intro": "Practical technology, thoughtful solutions. I build software, simplify repetitive work, troubleshoot systems, and turn promising ideas into usable plans.",
+    "about": [
+      "My work spans Python development, website improvements, hands-on IT support, and clear technical documentation. I care about solutions that people can understand and maintain.",
+      "This workshop is the starting point for Hearthstead: an experiment in building useful work independently while creating room for others to do the same."
+    ],
+    "skills": [
+      "Python",
+      "HTML & CSS",
+      "JavaScript",
+      "Technical support",
+      "Automation",
+      "Documentation",
+      "Project planning"
+    ],
+    "offerings": [
+      "Python scripting and workflow automation",
+      "Website improvements and front-end work",
+      "Technical troubleshooting and documentation",
+      "Project proposals and implementation planning"
+    ],
+    "projectSlugs": [
+      "marpa",
+      "python-workflows",
+      "web-refresh",
+      "hearthstead"
+    ],
+    "portrait": "assets/images/workshop-illustration.svg",
+    "contactNote": "Contact channels are being finalized. This prototype does not take bookings or process payments.",
+    "links": []
+  }
+]

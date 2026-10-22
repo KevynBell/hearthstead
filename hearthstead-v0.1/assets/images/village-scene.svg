@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="550" viewBox="0 0 660 550" role="img" aria-labelledby="scene-title">
+  <title id="scene-title">Colorful workshops in a sunny village</title>
+  <defs>
+    <clipPath id="ground-mask"><rect width="660" height="550" rx="24"/></clipPath>
+    <pattern id="brick" width="35" height="24" patternUnits="userSpaceOnUse"><path d="M0 12h35M17 0v12M0 12v12" fill="none" stroke="#B1694A" stroke-opacity=".16" stroke-width="2"/></pattern>
+  </defs>
+  <g clip-path="url(#ground-mask)">
+    <!-- These hand-authored vector shapes intentionally use a simple palette. -->
+    <circle cx="365" cy="143" r="57" fill="#E8B964"/>
+    <path d="M0 407q150-61 300-7t360-10v160H0Z" fill="#B9C9A8"/>
+    <path d="M0 469q135-47 282 4t378-12v89H0Z" fill="#819D7A"/>
+    <path d="M270 550c5-93 85-111 126-145l92 11c-70 56-100 90-90 134Z" fill="#EAD5B4"/>
+    <!-- Left pottery / design workshop -->
+    <g>
+      <path d="M64 310l112-105 116 105" fill="#A9553F"/>
+      <path d="M78 311h199v153H78Z" fill="#D99170"/>
+      <path d="M78 311h199v153H78Z" fill="url(#brick)"/>
+      <path d="M112 337h59v63h-59Z" fill="#F6E4BD" stroke="#90584C" stroke-width="8"/>
+      <path d="M142 339v60M113 371h57" stroke="#90584C" stroke-width="6"/>
+      <path d="M190 355h55v109h-55Z" fill="#775F4C"/>
+      <path d="M206 354v110" stroke="#AC8571" stroke-width="5"/>
+      <circle cx="233" cy="416" r="4" fill="#F6D58B"/>
+      <path d="M54 309l122-116 127 116" fill="none" stroke="#694A3A" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M100 425h62" stroke="#F7D79D" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <!-- Main central workshop -->
+    <g>
+      <path d="M259 275 401 151l141 124" fill="#476A58"/>
+      <path d="M281 273h240v226H281Z" fill="#F3D9A8"/>
+      <path d="M282 273h239v18H282Z" fill="#E7BD83"/>
+      <path d="M337 338h62v78h-62Z" fill="#90BBB0" stroke="#496B5B" stroke-width="9"/>
+      <path d="M368 339v77M337 379h62" stroke="#496B5B" stroke-width="6"/>
+      <path d="M417 330h63v169h-63Z" fill="#8E664F"/>
+      <path d="M430 331v168" stroke="#B58D69" stroke-width="7"/>
+      <circle cx="462" cy="417" r="6" fill="#F6D58B"/>
+      <path d="M258 276 401 145l143 131" fill="none" stroke="#355646" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="355" y="253" width="92" height="26" rx="5" fill="#355646"/>
+      <text x="401" y="271" fill="#F9ECD6" font-family="system-ui,sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="2">WORKSHOP</text>
+      <path d="M478 189v-53h24v73" fill="#355646"/>
+    </g>
+    <!-- Right small house -->
+    <g>
+      <path d="m494 364 77-69 82 69" fill="#B77A50"/>
+      <path d="M509 365h127v114H509Z" fill="#D8B98E"/>
+      <path d="M522 385h49v58h-49Z" fill="#F7EACB" stroke="#765D4D" stroke-width="6"/>
+      <path d="M546 386v57" stroke="#765D4D" stroke-width="4"/>
+      <path d="M585 400h34v79h-34Z" fill="#536D57"/>
+      <path d="m493 365 78-72 83 72" fill="none" stroke="#805B42" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <!-- Trees, flowers, and little human-scale details -->
+    <g>
+      <rect x="38" y="391" width="14" height="101" rx="5" fill="#715747"/>
+      <circle cx="43" cy="369" r="40" fill="#6F9066"/><circle cx="17" cy="393" r="24" fill="#789B6D"/><circle cx="76" cy="388" r="26" fill="#7D9E69"/>
+      <rect x="615" y="413" width="12" height="81" rx="4" fill="#715747"/>
+      <circle cx="621" cy="408" r="30" fill="#6F9066"/><circle cx="599" cy="429" r="22" fill="#7B9E70"/>
+      <path d="M134 499v-19M147 505v-18M159 500v-20M527 510v-19M547 506v-21" stroke="#446C55" stroke-width="4" stroke-linecap="round"/>
+      <g fill="#E6B56F"><circle cx="134" cy="480" r="5"/><circle cx="147" cy="487" r="5"/><circle cx="159" cy="480" r="5"/><circle cx="527" cy="490" r="5"/><circle cx="547" cy="485" r="5"/></g>
+      <path d="M178 519q33-22 64 0M550 526q34-22 59 0" fill="none" stroke="#446C55" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

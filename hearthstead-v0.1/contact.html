@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Help shape Hearthstead, share your ideas, or explore a future collaboration.">
+  <meta name="theme-color" content="#F7F2E8">
+  <title>Get Involved | Hearthstead</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Apply the saved theme before CSS paints to prevent a light/dark flash. -->
+  <script>
+    try {
+      const savedTheme = localStorage.getItem('hearthstead-theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') {
+        document.documentElement.dataset.theme = savedTheme;
+      }
+    } catch (_) { /* The system theme still works when storage is unavailable. */ }
+  </script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="announcement"><span class="announcement-dot" aria-hidden="true"></span> An early-stage community project <span class="announcement-divider" aria-hidden="true">•</span> Building in the open</div>
+<header class="site-header">
+  <div class="shell header-inner">
+    <a href="index.html" class="brand" aria-label="Hearthstead, home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" width="40" height="40" fill="none"><path d="m6 19 14-12 14 12" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 18v15h18V18" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M17 33V23h6v10" fill="currentColor"/><path d="M28 11V6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
+      <span class="brand-wordmark">hearthstead<span class="brand-period">.</span></span>
+    </a>
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">Our story</a>
+          <a href="workshops.html">Workshops</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html" aria-current="page">Get involved</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-switch" type="button" data-theme-toggle aria-label="Switch color theme" title="Switch color theme">
+        <span data-theme-icon aria-hidden="true">☾</span><span class="theme-label" data-theme-label>Theme</span>
+      </button>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation menu">
+        <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-hero shell"><div class="eyebrow">AT THE COMMONS</div><h1>Good things begin <em>with a conversation.</em></h1><p>Hearthstead is still a prototype. You can help shape the idea by sharing what you'd want from a professional village.</p></section>
+<section class="section shell contact-grid" aria-labelledby="contact-heading"><div class="contact-info"><div class="eyebrow">HELLO, NEIGHBOR</div><h2 id="contact-heading">Pull up a chair<span class="title-period">.</span></h2><p>We'd love to hear what independence, mentorship, or community could look like to you.</p>
+<div class="contact-point"><span aria-hidden="true">↗</span><div><strong>Collaborators</strong><p>Interested in helping shape the pilot? Tell us the skills and ideas you'd bring.</p></div></div>
+<div class="contact-point"><span aria-hidden="true">✳</span><div><strong>Early supporters</strong><p>Have thoughts about access, governance, or nonprofit sustainability? We want to listen.</p></div></div>
+<div class="notice-card" id="updates"><strong>We are not collecting submissions yet.</strong><p>This preview does not send messages, store personal information, accept donations, or register members. Contact details can be connected before launch.</p></div>
+</div>
+<div class="form-card"><div class="form-top"><span class="eyebrow">INQUIRY DRAFT TOOL</span><span class="chip chip-outline">Local only</span></div><h3>Start a conversation.</h3><p>Draft a message and copy it to your clipboard. Nothing is sent or saved by Hearthstead.</p>
+<form id="inquiry-form"><div class="form-row"><label for="inquiry-name">Your name <span>(optional)</span><input id="inquiry-name" name="name" type="text" maxlength="100" autocomplete="name" placeholder="What should we call you?"></label><label for="inquiry-topic">Topic <span>(required)</span><select name="topic" id="inquiry-topic" required><option value="">Choose a topic</option><option value="Collaboration">Collaboration</option><option value="Community feedback">Community feedback</option><option value="Mentorship">Mentorship</option><option value="Other idea">Other idea</option></select></label></div><label for="inquiry-message">Your message <span>(required)</span><textarea id="inquiry-message" name="message" rows="6" required minlength="10" maxlength="3000" placeholder="What would you like the village to know?"></textarea></label><button type="submit" class="button button-primary">Copy message draft <span aria-hidden="true">↗</span></button><p class="form-feedback" data-form-feedback role="status" aria-live="polite"></p></form>
+</div></section>
+<section class="shell section"><div class="bottom-cta"><div><div class="eyebrow eyebrow-light">A PLACE TO BELONG</div><h2>Help us imagine <em>what's next.</em></h2><p>No memberships or applications yet. Just a community vision taking its first steps.</p></div><a href="about.html#principles" class="button button-cream">Read our principles <span aria-hidden="true">↗</span></a></div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div class="footer-identity">
+      <a href="index.html" class="footer-logo">hearthstead<span>.</span></a>
+      <p>Talent is everywhere. Opportunity should be too.</p>
+      <span class="footer-note">A growing idea, built one workshop at a time.</span>
+    </div>
+    <div class="footer-links">
+      <h2>Explore</h2>
+      <a href="workshops.html">Workshops</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">Our story</a>
+    </div>
+    <div class="footer-links">
+      <h2>Get involved</h2>
+      <a href="contact.html">Contact & collaboration</a>
+      <a href="about.html#principles">Community principles</a>
+      <a href="contact.html#updates">Project updates</a>
+    </div>
+  </div>
+  <div class="shell footer-bottom"><span>© <span data-current-year>2026</span> Hearthstead · Working name, not a registered organization</span><span>Made for humans, not algorithms.</span></div>
+</footer>
+<script src="assets/js/contact.js" defer></script>
+</body>
+</html>

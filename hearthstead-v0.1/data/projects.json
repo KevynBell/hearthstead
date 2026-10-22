@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "marpa",
+    "title": "MARPA",
+    "subtitle": "Memory-Augmented Reasoning & Planning Assistant",
+    "category": [
+      "development"
+    ],
+    "phase": "Active personal project",
+    "art": "marpa",
+    "symbol": "M",
+    "owner": "Kevyn Bell",
+    "short": "Building a personal assistant from the ground up, exploring language models, architecture, and the role of memory.",
+    "overview": [
+      "MARPA is a long-running personal software project focused on building an approachable, adaptable assistant.",
+      "It combines hands-on model experimentation with design questions about memory, usability, safety, and maintainable software architecture."
+    ],
+    "highlights": [
+      "Local-first thinking for personal information",
+      "Training experiments and evolving transformer architecture",
+      "Emphasis on clear documentation and extensibility"
+    ],
+    "tags": [
+      "Python",
+      "PyTorch",
+      "AI research",
+      "Architecture"
+    ]
+  },
+  {
+    "slug": "python-workflows",
+    "title": "Python workflow demos",
+    "subtitle": "Turning repetitive work into repeatable tools",
+    "category": [
+      "development",
+      "automation"
+    ],
+    "phase": "Demonstration work",
+    "art": "automation",
+    "symbol": "{ }",
+    "owner": "Kevyn Bell",
+    "short": "Reusable Python examples that clean up structured data and turn repetitive steps into documented processes.",
+    "overview": [
+      "A set of practical demonstration projects exploring Python automation and clear handoffs.",
+      "The examples are fictional or synthetic demonstrations—not claims of client engagements."
+    ],
+    "highlights": [
+      "Structured CSV processing and validation",
+      "Reusable scripts with clear inputs and outputs",
+      "Readable documentation for future maintenance"
+    ],
+    "tags": [
+      "Python",
+      "CSV",
+      "Automation",
+      "Documentation"
+    ]
+  },
+  {
+    "slug": "web-refresh",
+    "title": "Website refresh study",
+    "subtitle": "Small changes, better everyday experiences",
+    "category": [
+      "development"
+    ],
+    "phase": "Fictional design demo",
+    "art": "website",
+    "symbol": "↗",
+    "owner": "Kevyn Bell",
+    "short": "An example of improving an existing small-business website through cleaner structure and accessible visual design.",
+    "overview": [
+      "This fictional before-and-after website study explores how modest changes can make a site clearer, easier to navigate, and more comfortable to use.",
+      "It is a portfolio demonstration, not a delivered commercial client project."
+    ],
+    "highlights": [
+      "Responsive layouts and clearer information hierarchy",
+      "Accessible navigation and readable typography",
+      "Small-business-friendly improvements"
+    ],
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Accessibility"
+    ]
+  },
+  {
+    "slug": "hearthstead",
+    "title": "The Hearthstead prototype",
+    "subtitle": "Building a digital village, one workshop at a time",
+    "category": [
+      "development",
+      "community"
+    ],
+    "phase": "Early-stage initiative",
+    "art": "village",
+    "symbol": "⌂",
+    "owner": "Kevyn Bell",
+    "short": "An open-ended experiment in accessible professional visibility, shared resources, and independent opportunity.",
+    "overview": [
+      "Hearthstead is an early-stage idea for a welcoming professional community where skills matter more than status.",
+      "The first milestone is a transparent, accessible static website that can grow to support additional workshops and projects."
+    ],
+    "highlights": [
+      "Workshops driven by structured data",
+      "Responsive day and night themes",
+      "Designed to grow without a premature membership backend"
+    ],
+    "tags": [
+      "Community",
+      "Web development",
+      "Accessibility",
+      "Open planning"
+    ]
+  }
+]

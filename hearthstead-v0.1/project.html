@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Read about a project from the Hearthstead workshops.">
+  <meta name="theme-color" content="#F7F2E8">
+  <title>Project Story | Hearthstead</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Apply the saved theme before CSS paints to prevent a light/dark flash. -->
+  <script>
+    try {
+      const savedTheme = localStorage.getItem('hearthstead-theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') {
+        document.documentElement.dataset.theme = savedTheme;
+      }
+    } catch (_) { /* The system theme still works when storage is unavailable. */ }
+  </script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/data.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="announcement"><span class="announcement-dot" aria-hidden="true"></span> An early-stage community project <span class="announcement-divider" aria-hidden="true">•</span> Building in the open</div>
+<header class="site-header">
+  <div class="shell header-inner">
+    <a href="index.html" class="brand" aria-label="Hearthstead, home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" width="40" height="40" fill="none"><path d="m6 19 14-12 14 12" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 18v15h18V18" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M17 33V23h6v10" fill="currentColor"/><path d="M28 11V6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
+      <span class="brand-wordmark">hearthstead<span class="brand-period">.</span></span>
+    </a>
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">Our story</a>
+          <a href="workshops.html">Workshops</a>
+          <a href="projects.html" aria-current="page">Projects</a>
+          <a href="contact.html">Get involved</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-switch" type="button" data-theme-toggle aria-label="Switch color theme" title="Switch color theme">
+        <span data-theme-icon aria-hidden="true">☾</span><span class="theme-label" data-theme-label>Theme</span>
+      </button>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation menu">
+        <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<section class="shell detail-back"><a href="projects.html" class="text-link"><span aria-hidden="true">←</span> All projects</a></section>
+<section class="shell project-detail" data-project-detail><div class="loading-message">Opening the project…</div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div class="footer-identity">
+      <a href="index.html" class="footer-logo">hearthstead<span>.</span></a>
+      <p>Talent is everywhere. Opportunity should be too.</p>
+      <span class="footer-note">A growing idea, built one workshop at a time.</span>
+    </div>
+    <div class="footer-links">
+      <h2>Explore</h2>
+      <a href="workshops.html">Workshops</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">Our story</a>
+    </div>
+    <div class="footer-links">
+      <h2>Get involved</h2>
+      <a href="contact.html">Contact & collaboration</a>
+      <a href="about.html#principles">Community principles</a>
+      <a href="contact.html#updates">Project updates</a>
+    </div>
+  </div>
+  <div class="shell footer-bottom"><span>© <span data-current-year>2026</span> Hearthstead · Working name, not a registered organization</span><span>Made for humans, not algorithms.</span></div>
+</footer>
+<script src="assets/js/projects.js" defer></script>
+</body>
+</html>

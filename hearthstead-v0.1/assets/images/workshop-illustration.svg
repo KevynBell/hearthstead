@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="370" viewBox="0 0 520 370" role="img" aria-labelledby="workshop-title">
+  <title id="workshop-title">An illustration of a creative workspace</title>
+  <!-- Accessible, intentionally generic illustration; not a photograph. -->
+  <ellipse cx="252" cy="346" rx="211" ry="17" fill="#A7AE8A" opacity=".5"/>
+  <rect x="70" y="248" width="382" height="25" rx="9" fill="#946A4C"/>
+  <rect x="94" y="270" width="16" height="76" rx="5" fill="#735641"/>
+  <rect x="411" y="270" width="16" height="76" rx="5" fill="#735641"/>
+  <rect x="136" y="86" width="240" height="161" rx="15" fill="#334B4C"/>
+  <rect x="151" y="102" width="210" height="126" rx="5" fill="#D9F0DF"/>
+  <path d="M173 147h95M173 169h134M173 191h70" stroke="#72968C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M210 248h95l17 12H194Z" fill="#4E6560"/>
+  <path d="M211 261h94" stroke="#344D4A" stroke-width="7" stroke-linecap="round"/>
+  <path d="M390 237h37l-8 13h-22Z" fill="#C17D5E"/>
+  <path d="M406 238v-85" stroke="#537653" stroke-width="7" stroke-linecap="round"/>
+  <path d="M404 183c-27-22-29-44-14-49 20-5 24 27 14 49ZM409 197c35-19 43-39 30-47-17-10-36 13-30 47ZM405 225c-26-17-38-28-26-37 20-12 31 11 26 37Z" fill="#638961"/>
+  <rect x="81" y="188" width="41" height="61" rx="5" fill="#C27D5D"/>
+  <path d="M86 194h31M86 211h31M86 228h31" stroke="#E9C39A" stroke-width="5"/>
+  <path d="M72 187h57" stroke="#745B4A" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="420" cy="73" r="42" fill="#E7BB71"/>
+  <path d="M403 72l11 11 23-26" stroke="#FFF5DC" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
