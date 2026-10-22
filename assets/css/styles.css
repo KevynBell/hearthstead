@@ -161,7 +161,7 @@ p { color: var(--ink-soft); }
 .avatar-stamp { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: var(--terracotta); color: #FFF; font-family: var(--font-display); font-size: 1.2rem; }
 .hero-art { position: relative; overflow: visible; background: var(--art-background); border: 1px solid var(--line); border-radius: 48% 48% 35px 35px / 28% 28% 35px 35px; min-width: 0; padding: 0 10px; aspect-ratio: .96; }
 .hero-art img { height: 100%; width: 100%; object-fit: contain; object-position: center bottom; }
-.art-topline { position: absolute; z-index: 1; top: 35px; left: 50%; transform: translateX(-50%); width: 75%; display: flex; justify-content: space-between; align-items: center; color: #50634F; font-size: 1rem; font-weight: 850; letter-spacing: .14em; white-space: nowrap; }
+.art-topline { position: absolute; z-index: 1; top: 35px; left: 63%; transform: translateX(-50%); width: 75%; display: flex; justify-content: space-between; align-items: center; color: #50634F; font-size: 1rem; font-weight: 850; letter-spacing: .14em; white-space: nowrap; }
 .art-spark { font-size: 1.8rem; color: #AE6F4A; }
 .art-card { position: absolute; display: flex; align-items: center; gap: 9px; padding: 12px 15px; background: #FFFCF6; color: #3C4839; box-shadow: 0 14px 40px rgba(42, 48, 29, .12); font-size: .74rem; font-weight: 800; border-radius: 12px; white-space: nowrap; }
 .art-card-left { left: -24px; bottom: 90px; transform: rotate(-4deg); }
